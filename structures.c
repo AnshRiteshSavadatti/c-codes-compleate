@@ -423,31 +423,31 @@
 
 
 
-// unions
-#include<stdio.h>
-#include<String.h>
-int main(){
-    typedef union pokemon{
-    int hp;
-    int attack;
-    int speed;
-    char tier;
-    char name[20];
- }pokemon;
-// pokemon pikachu = {100,200,250,'A',"Pikachu"};
-pokemon pikachu;
- pikachu.hp = 100;
- pikachu.attack = 200;
- pikachu.speed = 250;
- pikachu.tier = 'A';
- strcpy(pikachu.name,"Pikachu");
+// // unions
+// #include<stdio.h>
+// #include<String.h>
+// int main(){
+//     typedef union pokemon{
+//     int hp;
+//     int attack;
+//     int speed;
+//     char tier;
+//     char name[20];
+//  }pokemon;
+// // pokemon pikachu = {100,200,250,'A',"Pikachu"};
+// pokemon pikachu;
+//  pikachu.hp = 100;
+//  pikachu.attack = 200;
+//  pikachu.speed = 250;
+//  pikachu.tier = 'A';
+//  strcpy(pikachu.name,"Pikachu");
 
- printf("%d\n",pikachu.hp);
- printf("%d\n",pikachu.attack);
- printf("%d\n",pikachu.speed);
- printf("%c\n",pikachu.tier);
- printf("%s\n",pikachu.name);
- return 0;
+//  printf("%d\n",pikachu.hp);
+//  printf("%d\n",pikachu.attack);
+//  printf("%d\n",pikachu.speed);
+//  printf("%c\n",pikachu.tier);
+//  printf("%s\n",pikachu.name);
+//  return 0;
 
-}
+// }
 
